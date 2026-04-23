@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { siteImages } from "@/lib/site-images"
 import { HeroDotBackground } from "./hero-dot-background"
-import { LandingPhoto } from "./landing-photo"
 import { SectionScrollHint } from "./section-scroll-hint"
 
 export function HeroSection() {
@@ -44,16 +42,14 @@ export function HeroSection() {
               </div>
             </div>
 
-            {/* Image */}
+            {/* Video Slot */}
             <div className="order-1 lg:order-2">
               <div className="relative">
-                <LandingPhoto
-                  src={siteImages.hero}
-                  alt="Mesa de entrada com frios, figos e uvas em evento"
-                  aspectRatio="hero"
-                  priority
-                  sizes="(max-width: 1024px) 100vw, 45vw"
-                />
+                <div className="flex aspect-[16/10] items-center justify-center border border-dashed border-stone-500 bg-stone-900/60 px-6 text-center">
+                  <span className="text-base font-medium uppercase tracking-[0.25em] text-stone-300 md:text-lg">
+                    SLOT PARA O VIDEO
+                  </span>
+                </div>
                 <div className="absolute -inset-4 -z-10 border border-stone-700" />
               </div>
             </div>

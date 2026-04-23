@@ -14,6 +14,7 @@ export function LandingPhoto({
   src,
   alt,
   className,
+  imageClassName,
   aspectRatio = "landscape",
   priority,
   sizes,
@@ -21,6 +22,7 @@ export function LandingPhoto({
   src: string
   alt: string
   className?: string
+  imageClassName?: string
   aspectRatio?: AspectKey
   priority?: boolean
   sizes?: string
@@ -39,7 +41,7 @@ export function LandingPhoto({
         src={encodedSrc}
         alt={alt}
         fill
-        className="object-cover"
+        className={cn("object-cover object-center", imageClassName)}
         sizes={sizes ?? "(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 600px"}
         priority={priority}
       />

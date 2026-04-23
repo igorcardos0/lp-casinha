@@ -4,10 +4,10 @@ export const siteImages = {
   hero: "/images/Casamento/IMG_9462.jpg",
   /** Sobre: buffet completo com flores — essência e eventos */
   about: "/images/Casamento/IMG_1579.jpg",
-  /** Card Casamentos: estação de caprese e frios em evento formal */
-  serviceCasamentos: "/images/Casamento/IMG_4878.jpeg",
+  /** Card Casamentos: estação em evento formal */
+  serviceCasamentos: "/images/Casamento/IMG_4879.jpeg",
   /** Card Corporativo / social: estações de dips e folhagens */
-  serviceCorporativo: "/images/Social e Corporativo/IMG_9477.jpg",
+  serviceCorporativo: "/images/Social e Corporativo/IMG_2636.jpg",
   /** Card Encomendas: prato assinado, molho — intimidade e alto nível */
   serviceEncomendas: "/images/Encomendas especiais/DSCF2124.jpg",
   /** Diferenciais: prato criativo (queijo) — apresentação e técnica */

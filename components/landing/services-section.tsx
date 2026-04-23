@@ -11,6 +11,7 @@ const services = [
     number: "01",
     image: siteImages.serviceCasamentos,
     imageAlt: "Estação de saladas e frios em evento de casamento",
+    imageClassName: undefined,
   },
   {
     title: "Eventos Corporativos",
@@ -18,7 +19,8 @@ const services = [
       "Impressione seus convidados e colaboradores com experiências gastronômicas que elevam qualquer ocasião profissional.",
     number: "02",
     image: siteImages.serviceCorporativo,
-    imageAlt: "Bowls de hummus e acompanhamentos em mesa decorada",
+    imageAlt: "Estações de finger food em evento corporativo",
+    imageClassName: undefined,
   },
   {
     title: "Encomendas Especiais",
@@ -26,9 +28,10 @@ const services = [
       "Jantares íntimos, celebrações em família ou presentes gourmet. Criamos experiências personalizadas para momentos especiais.",
     number: "03",
     image: siteImages.serviceEncomendas,
-    imageAlt: "Prato com carne ao ponto, batatas e finalização com molho",
+    imageAlt: "Prato com apresentação criativa e finalização especial",
+    imageClassName: "object-[center_40%]",
   },
-] as const
+]
 
 export function ServicesSection() {
   return (
@@ -70,6 +73,7 @@ export function ServicesSection() {
                   alt={service.imageAlt}
                   aspectRatio="landscape"
                   className="w-full transition-transform duration-700 group-hover:scale-105"
+                  imageClassName={service.imageClassName}
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>

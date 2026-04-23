@@ -11,12 +11,12 @@ export function Footer() {
         <div className="grid items-start gap-8 sm:grid-cols-2 sm:gap-6 md:grid-cols-3 md:gap-8 lg:gap-10">
           <div className="space-y-2">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo%20Casinha%20-%20Preto-9LC0qA61bEaJGgBfrbYgUNMdtXScMA.png"
+              src="/images/logo.png"
               alt="Casinha Banqueteria"
-              width={112}
-              height={26}
+              width={647}
+              height={163}
               className="invert"
-              style={{ height: "24px", width: "auto" }}
+              style={{ height: "111px", width: "auto" }}
             />
             <p className="max-w-xs text-xs leading-relaxed text-stone-400 sm:text-sm">
               Gastronomia Afetiva desde 2014. Transformando eventos em experiências memoráveis.
@@ -53,11 +53,11 @@ export function Footer() {
                 <span className="break-all">contato@casinhabanqueteria.com.br</span>
               </a>
               <a
-                href="tel:+5511999999999"
+                href="tel:+5511975650773"
                 className="flex items-center gap-2 text-stone-400 transition-colors hover:text-stone-200"
               >
                 <Phone className="h-3.5 w-3.5 shrink-0" />
-                (11) 99999-9999
+                +55 11 97565-0773
               </a>
               <a
                 href="https://instagram.com/casinha.banqueteria"

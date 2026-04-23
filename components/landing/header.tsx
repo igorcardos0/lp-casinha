@@ -11,15 +11,15 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border/50">
       <div className="container mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <a href="#" className="relative block">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo%20Casinha%20-%20Preto-9LC0qA61bEaJGgBfrbYgUNMdtXScMA.png"
+              src="/images/logo.png"
               alt="Casinha Banqueteria"
-              width={140}
-              height={32}
-              style={{ height: '32px', width: 'auto' }}
+              width={360}
+              height={84}
+              style={{ height: '84px', width: 'auto' }}
               priority
             />
           </a>

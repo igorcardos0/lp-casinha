@@ -17,14 +17,14 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Telefone",
-    value: "(11) 99999-9999",
-    href: "tel:+5511999999999",
+    value: "+55 11 97565-0773",
+    href: "tel:+5511975650773",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "contato@casinha.com.br",
-    href: "mailto:contato@casinha.com.br",
+    value: "contato@casinhabanqueteria.com.br",
+    href: "mailto:contato@casinhabanqueteria.com.br",
   },
   {
     icon: MapPin,

@@ -45,7 +45,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`scroll-smooth ${playfair.variable} ${inter.variable}`}>
-      <body className="font-sans antialiased">
+      <body suppressHydrationWarning className="font-sans antialiased">
         {children}
         <Analytics />
       </body>
